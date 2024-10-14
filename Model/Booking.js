@@ -68,15 +68,15 @@ const BookingSchema = new Schema(
     },
     email: {
       type: String,
-      required: true,
+      // required: true,
     },
     phone: {
       type: Number,
-      required: true,
+      // required: true,
     },
     wp_nd: {
       type: String,
-      dafalt: "",
+      default: "",
     },
     passport_number: {
       type: String,
@@ -92,11 +92,11 @@ const BookingSchema = new Schema(
     },
     dob: {
       type: String,
-      required: true,
+      // required: true,
     },
     proffesion: {
       type: String,
-      required: true,
+      // required: true,
     },
     adultNo: Number,
     children: Number,
@@ -110,11 +110,11 @@ const BookingSchema = new Schema(
     },
     payment_type: {
       type: String,
-      required: true,
+      // required: true,
     },
     remark: {
       type: String,
-      required: true,
+      // required: true,
     },
     verifiedby: {
       type: String,

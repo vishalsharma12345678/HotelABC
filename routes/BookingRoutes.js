@@ -17,6 +17,7 @@ router.post("/addbooking", async function (req, res) {
   res.header("Access-Control-Allow-Origin", "*");
   let room_ids = [];
   let { room_number, ...rest } = req.body;
+  console.log(req.body);
   room_number.forEach(async (room) => {
     room_ids.push(room._id);
   });
